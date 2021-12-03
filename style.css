@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&display=swap");
+
+* {
+    margin: auto;
+    padding: auto;
+}
+.back{
+background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+
+
+nav {
+    height: 35px;
+    background-color: black;
+    min-height: 30px; 
+    cursor: pointer;
+    position: sticky;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style-type: none;
+   font-style: oblique;
+    font-family: "Comic Sans MS", cursive ;
+    text-decoration-color:white;
+    justify-content: space-between;  
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    list-style: none;
+}
+#my-name {
+    font-family: "Dancing Script", cursive;
+    text-align: center;
+}
+#about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+#my-image {
+    margin-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#my-image img {
+    width: 170px;
+    border-radius: 7px;
+    margin: 20px;
+}
+#my-image a img {
+    width: 30px;
+    margin-left: 0px;
+}
+body{
+  font-family:"Comic Sans MS", cursive;
+  }
+.skills h1{
+  font-family: "Comic Sans MS", cursive;
+  font-size: 33px;
+  margin-top: 0px;
+  margin-right: 10px;
+}
+.skills{
+    display: flex;
+    flex-direction: row;
+    margin-right: 5px;
+    height: 300px;
+  }
+.sb {
+    position :relative;
+    width : 50%;
+    height: 300px;
+    margin-top: 30px;
+    margin-right: 20px;
+  }
+  .sb div{
+    margin-right: 10px;
+  }
+  .asb {
+    position :relative;
+    width : 50%;
+    height: 400px;
+    margin-top: 30px;
+    margin-right: 20px;
+
+  }
+  .sk{
+    position: relative;
+    left: 3%;
+    margin:10px 10px 5px 5px;
+    border: solid black;
+    width: 20%;
+    height: 40px;
+    justify-content: center;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px; 
+    transition: 1s steps(300,end);
+    text-align: center;
+  }
+  
+  .sb div:hover{
+    transform: scale(1.1) translate(130px);
+  }
+  .asb div:hover{
+    transform: scale(1.1) translate(130px);
+  }
+  .edu h1 {
+    font-family: "Comic Sans MS", cursive;
+    font-size: 33px;
+  }
+  
+  
+  .timeline{
+    position :relative;
+    width : 75%;
+    
+    margin-top: 30px;
+  }
+  .timeline-box{
+    position: relative;
+    left: 3%;
+    margin: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 1100px;
+    width: 45%;
+    padding: 10px 0px 10px 10px;
+
+    min-height: 125px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  
+  .timeline-box:nth-child(2n){
+    left: 50%;
+    right : 5%;
+  }
+  .timeline-box :nth-child(2n+1)::after{
+    content:'';
+    position: absolute;
+    top : 25%;
+    right : -13%;
+    z-index:2;
+  }
+  .timeline-box :nth-child(2n)::after{
+    content:'';
+    position: absolute;
+    top : 25%;
+    left  : -13%;
+    border-radius : 50%;
+    
+  }
+  .divider{
+    position: absolute;
+    height: 75%;
+    width : 0%;
+    border:1px solid black;
+    left: 50%;
+    top: 8%;
+    margin: 5px;
+  }
+  .traveller{
+    position:sticky;
+    top:25%;
+    transform: rotate(90deg);
+  }
+  .main{
+    position :relative;
+    width : 75%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    background-color: #000428 → #004e92;
+    z-index: 5;
+  }
+.projects{
+  background-image: #000428 → #004e92;
+  z-index: 5;
+}
+  .main div{
+    
+    position: relative;
+    left: 3%;
+    margin: 5px;
+    width: 45%;
+    min-height: 350px;
+    margin-right: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  
+  .project-one img {
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+
+  }
+  .project-one H3{ 
+    text-align: center;
+  }
+  .projects h1 {
+    font-family: "Comic Sans MS", cursive;
+    font-size: 33px;
+  }
+  .project-two img {
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+
+  }
+  .project-two H3{ 
+    text-align: center;
+  }
+  .con  {
+    background-image: url("./connect.png");
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    padding: auto;
+  }
+  .con {
+    
+    height:500px;
+    width: 100%;
+  }
+  .con h4 {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    margin-top: 40px;
+    
+    
+}
+.con div{
+  padding-top: 30px;
+  padding-left: 30px;
+  
+}
+  
+  
